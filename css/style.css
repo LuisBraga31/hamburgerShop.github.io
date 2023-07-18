@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f1e1f;
+    position: fixed;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_logo img {
+    width: 70px;
+}
+
+.header_logo h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+/* SECTION 01 */
+
+.section_body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../imgs/fundo_hamburger.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
+
+.body_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.body_title h1{
+    font-size: 2.4rem;
+    color: #ffa500;
+}
+
+.body_title h2{
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.body_button {
+    display: flex;
+    gap: 30px;
+}
+
+.body_button button {
+    width: 25vw;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 400ms ease-in;
+    border: 1px solid black;
+
+}
+
+.body_button button:hover {
+    border: 1px solid #ffa500;
+    background-color: transparent;
+    color: #fff;
+    
+}
