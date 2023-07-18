@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Pangolin', cursive;
     box-sizing: border-box;
 }
 
@@ -50,6 +54,14 @@ header {
 .header_nav a {
     color: white;
     text-decoration: none;
+    transition: all 200ms ease-in;
+    border: 3px solid transparent;
+}
+
+.header_nav a:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #ffa500;  
+    color: #ffa500;
 }
 
 /* MAIN */
@@ -79,13 +91,15 @@ header {
 }
 
 .body_title h1{
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     color: #ffa500;
+    font-family: 'Pangolin', cursive;
 }
 
 .body_title h2{
     font-size: 1.1rem;
     color: #fff;
+    font-family: 'Pangolin', cursive;
 }
 
 .body_button {
@@ -94,7 +108,7 @@ header {
 }
 
 .body_button button {
-    width: 25vw;
+    width: 180px;
     padding: 10px 20px;
     background-color: #ffa500;
     cursor: pointer;
@@ -102,7 +116,7 @@ header {
     font-weight: bold;
     transition: all 400ms ease-in;
     border: 1px solid black;
-
+    font-family: 'Pangolin', cursive;
 }
 
 .body_button button:hover {
