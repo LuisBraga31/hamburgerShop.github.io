@@ -9,7 +9,7 @@
 }
 
 html {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
@@ -18,7 +18,7 @@ html {
 /* HEADER */
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-evenly;
@@ -69,7 +69,7 @@ header {
 /* SECTION 01 */
 
 .section_body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -126,3 +126,40 @@ header {
 }
 
 /* SECTION SOBRE NOS */
+
+
+.section_about {
+    padding: 50px;
+    width: 100%;
+    padding-bottom: 3rem;
+    background-color: #1f1e1f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about_content p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 60%;
+}
+
+
+.about_image img{
+    width: 430px;
+    height: 300px;
+    margin-right: 200px;
+    border: 2px solid rgb(155, 155, 155);
+}
