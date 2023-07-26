@@ -296,16 +296,14 @@ header {
     font-size: 1.2rem;
 }
 
-
-
 /* FOOTER */
 
 .footer {
     width: 100%;
-    padding: 2em;
-    font-size: 14px;
+    padding: 0.3rem;
     text-align: center;
-    background-color: black;
+    background-color: #151515;
+    font-size: 1.1rem;
 }
 
 .footer small {
