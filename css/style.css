@@ -13,6 +13,7 @@ html {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    background-color: #1f1e1f;
 }
 
 /* HEADER */
