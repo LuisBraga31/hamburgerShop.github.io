@@ -173,12 +173,13 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
     background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8));
 }
 
 .section_menu h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
 }
 
 .menu_content {
@@ -191,15 +192,24 @@ header {
 }
 
 .menu_item {
+    border-radius: 15px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    background-color: #151515;
+}
+
+.menu_item img { 
+    width: 350px;
+    height: 230px;
 }
 
 .menu_item p {
     text-align: center;
-    width: 40%;
+    width: 70%;
 }
 
 .item_info {
@@ -207,9 +217,22 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
-.menu_item img { 
-    width: 350px;
-    height: 230px;
+.item_info button {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffa500;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border:none;
+    transition: all 200ms ease-in;
+}
+
+.item_info button:hover {
+    background-color: #5e5252;
+    color: rgb(255, 255, 255);
 }
