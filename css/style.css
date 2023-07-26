@@ -135,8 +135,15 @@ header {
     background-color: #1f1e1f;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+@media(max-width:968px) {
+    .section_about {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
 
 .about_content {
@@ -160,7 +167,7 @@ header {
 .about_image img{
     width: 430px;
     height: 300px;
-    margin-right: 200px;
+
     border: 2px solid rgb(155, 155, 155);
 }
 
@@ -235,4 +242,72 @@ header {
 .item_info button:hover {
     background-color: #5e5252;
     color: rgb(255, 255, 255);
+}
+
+
+/* SECTION REDES*/
+
+.section_medias {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #1f1e1f;
+    color: white;
+}
+
+.section_medias h2 {
+    font-size: 2rem;
+}
+
+.medias_content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.media_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.media_item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.media_item img:hover {
+    transform: rotate(360deg);
+}
+
+.media_item p {
+    font-size: 1.2rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    padding: 2em;
+    font-size: 14px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer small {
+    color: white;
 }
