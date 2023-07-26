@@ -1,0 +1,41 @@
+@media (max-width: 504px) {
+
+    
+    .body_title {
+
+        gap: 20px;
+    }
+
+    .body_title h1{
+        text-align: center;
+    }
+
+    .body_button {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about_content p {
+        width: 90%;
+    }
+
+    .about_image img{
+        width: 330px;
+        height: 200px;
+    }
+
+    .menu_item img { 
+        width: 80%;
+        height: 180px;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .medias_content {
+        flex-direction: column;
+        gap: 50px;
+    
+    }
+}
