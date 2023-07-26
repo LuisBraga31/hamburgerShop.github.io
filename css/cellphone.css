@@ -1,13 +1,8 @@
 @media (max-width: 504px) {
-
     
     .body_title {
 
         gap: 20px;
-    }
-
-    .body_title h1{
-        text-align: center;
     }
 
     .body_button {
@@ -35,7 +30,47 @@
 @media (max-width: 620px) {
     .medias_content {
         flex-direction: column;
-        gap: 50px;
-    
+        gap: 50px;   
     }
 }
+
+@media (max-width: 675px) {
+    header {
+        height: 12vh;
+
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    .menu_hamb {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .body_title h1{
+        text-align: center;
+    }
+
+}
+

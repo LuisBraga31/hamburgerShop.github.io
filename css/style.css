@@ -64,6 +64,10 @@ header {
     color: #ffa500;
 }
 
+.menu_hamb {
+    display: none;
+}
+
 /* MAIN */
 
 /* SECTION 01 */
