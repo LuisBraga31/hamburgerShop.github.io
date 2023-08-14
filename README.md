@@ -23,4 +23,4 @@ Projeto criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma 
 
 ## Inspiração / Ajuda
 
-O projeto foi criado com ajuda do vídeo da desenvolvedora CrisTech. O vídeo está disponível no youtube: <a href="https://www.youtube.com/watch?v=Uxm17PTHAZw&ab_channel=CrisTech"> veja mais. </a>
+O projeto foi criado com ajuda do vídeo da desenvolvedora CrisTech. O vídeo está disponível no youtube: <a href="https://www.youtube.com/watch?v=Uxm17PTHAZw&ab_channel=CrisTech" target="_blank" > veja mais. </a>
