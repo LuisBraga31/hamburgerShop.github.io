@@ -4,7 +4,8 @@ Projeto criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma 
 
 ## Imagem do Projeto
 
-![hamburgershop-seven vercel app_](https://github.com/LuisBraga31/hamburgerShop.github.io/assets/83723698/778d061e-9783-41a8-b410-7040232a2b3b)
+![HamburgerShopImage](https://github.com/LuisBraga31/hamburgerShop.github.io/assets/83723698/87b4ae28-17cf-4f42-b69d-a5caa38c7da6)
+
 
 ## Tecnologias Utilizadas:
 
